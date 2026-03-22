@@ -4,25 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panadería de DonPePe</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="#productos">Productos</a>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <a href="#productos">Productos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+        <li>
+          <a href="#quienes-somos">Quienes Somos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacto">Contacto</a>
+        <li>
+          <a href="#contacto">Contacto</a>
         </li>
       </ul>
     </nav>
@@ -35,12 +29,11 @@
       </p>
     </header>
     <hr />
-    <main class="container">
-      <section id="productos" class="row">
+    <main>
+      <section id="productos">
         <h2>Productos</h2>
-        <div class="col-md-4">
+        <div>
           <img
-            class="img-fluid"
             width="100px"
             height="100px"
             src="https://imgs.search.brave.com/Uw164ij7UTaPp35zyFE5m9JHY39poas-6fPowUqSml8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/ODF3YVF4dHhMK0wu/anBn"
@@ -49,11 +42,10 @@
           <h3>Pan de molde</h3>
           <p>Pan de molde de trigo integral con semillas</p>
           <p>Precio: c$25</p>
-          <button class="btn btn-primary">Agregar al carrito</button>
+          <button>Agregar al carrito</button>
         </div>
-        <div class="col-md-4">
+        <div>
           <img
-            class="img-fluid"
             width="100px"
             height="100px"
             src="https://imgs.search.brave.com/ISVRS7uQ0pJB65GzR5cDldolK-dmTNkCzlnPVXBZnZg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmJs/b2dzLmVzLzM3MjE0/YS9wYW4tZGUtYWpv/LWEtbGEtYW1lcmlj/YW5hLzQ1MF8xMDAw/LmpwZw"
@@ -62,11 +54,10 @@
           <h3>Pan de ajo</h3>
           <p>Pan de ajo con queso parmesano</p>
           <p>Precio: c$20</p>
-          <button class="btn btn-primary">Agregar al carrito</button>
+          <button>Agregar al carrito</button>
         </div>
-        <div class="col-md-4">
+        <div>
           <img
-            class="img-fluid"
             width="100px"
             height="100px"
             src="https://imgs.search.brave.com/zG61fwH2Jm8mAODptnmuaWm38T8rPDBcCbDhiRjm9Cs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bm9tZWNvbWVzbmFk/YS5lcy93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wMy9wdWRp/bi1wYW4tNi03NTB4/NTAwLmpwZw"
@@ -75,11 +66,11 @@
           <h3>Pudin de Pan</h3>
           <p>Pudin de pan con pasas y canela</p>
           <p>Precio: c$30</p>
-          <button class="btn btn-primary">Agregar al carrito</button>
+          <button>Agregar al carrito</button>
         </div>
       </section>
       <hr />
-      <section id="quienes-somos" class="row">
+      <section id="quienes-somos">
         <h2>Quienes Somos</h2>
         <p>
           Somos una panadería familiar con más de 20 años de experiencia en la
@@ -91,29 +82,29 @@
         </p>
       </section>
       <hr />
-      <section id="contacto" class="row">
+      <section id="contacto">
         <h2>Contacto</h2>
         <form action="">
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" />
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" />
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" />
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" />
           </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensaje"></textarea>
+          <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit">Enviar</button>
         </form>
       </section>
     </main>
     <hr />
     <footer>
       <p>Todos los derechos reservados &copy; 2026</p>
-      <p>Desarrollado por: DonPePe</p>
+      <p>Desarrollado por: Ronald Adan Tellez Carnet:25-06810-0</p>
     </footer>
   </body>
 </html>
